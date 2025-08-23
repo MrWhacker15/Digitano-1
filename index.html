@@ -1,0 +1,1647 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<body>
+    <!-- navbar start -->
+    <nav class="shadow-lg overflow-hidden  bg-(--accent-color) text-white shadow-stone-950/20 md:px-16 px-5 flex flex-wrap items-center py-4 md:py-2">
+
+    <div class="flex-1 flex justify-between items-center">
+    
+      <a href="#" class="poppins antialiased text-2xl text-current ml-2 mr-5 block py-1 font-bold">Budgethook</a>
+    </div>
+    <label for="menu-toggle" class="cursor-pointer md:hidden block">
+      <svg
+        class="fill-current text-white"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+      >
+        <title>menu</title>
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+      </svg>
+    </label>
+    <input class="hidden" type="checkbox" id="menu-toggle" />
+    <div class="py-4 hidden md:flex md:items-center md:w-auto w-full" id="menu">
+      <nav>
+        
+        <ul class="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-1 md:text-lg md:flex  md:pt-0">
+                    <li class="py-2 md:py-0">
+                        <a href="index.html"
+                            class="poppins antialiased text-md font-normal px-3 py-2 rounded text-white hover:bg-zinc-200/80 hover:text-black transition-all duration-300">Home</a>
+                    </li>
+
+                    <li class="py-2 md:py-0">
+                        <a href="categories.html"
+                            class="poppins antialiased text-md font-normal px-3 py-2 rounded text-white hover:bg-zinc-200/80 hover:text-black transition-all duration-300">Categories</a>
+                    </li>
+
+                    <li class="py-3 md:py-0 lg:mr-2">
+                        <a href="about.html"
+                            class="poppins antialiased text-md font-normal px-3 py-2 rounded text-white hover:bg-zinc-200/80 hover:text-black transition-all duration-300">About
+                            Us</a>
+                    </li>
+
+                    <div class="ml-auto mr-auto w-8 lg:w-40">
+                <div class="relative w-full">
+                    <input placeholder="Search here..." type="search"
+                        class="w-full aria-disabled:cursor-not-allowed outline-none focus:outline-none text-stone-800 dark:text-white placeholder:hidden lg:placeholder:text-stone-600/60 ring-transparent border border-stone-200 transition-all ease-in disabled:opacity-50 disabled:pointer-events-none select-none text-sm py-1.5 p-0 lg:pl-8 lg:pr-2 ring shadow-sm bg-white rounded-md duration-100 hover:border-stone-300 hover:ring-none focus:border-stone-400 focus:ring-none peer" />
+                    <span
+                        class="pointer-events-none absolute left-2 top-1/2 -translate-y-1/2 text-stone-600/70  dark:peer-hover:text-black dark:peer-focus:text-white transition-all duration-300 ease-in overflow-hidden w-4 h-4"><svg
+                            width="1.5em" height="1.5em" viewBox="0 0 24 24" stroke-width="1.5" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" color="currentColor" class="h-full w-full">
+                            <path d="M17 17L21 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                            <path
+                                d="M3 11C3 15.4183 6.58172 19 11 19C13.213 19 15.2161 18.1015 16.6644 16.6493C18.1077 15.2022 19 13.2053 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11Z"
+                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+
+                </ul>
+      </nav>
+    </div>
+  </nav>
+    <!-- navbar end -->
+
+    
+
+
+    <!-- hero section start -->
+    <section class="w-full container mt-10 px-5 lg:px-10 mx-auto max-w-[1300px]">
+        <div class="flex flex-col lg:flex-row items-center lg:justify-between">
+            <div class="w-full lg:w-6/12 ">
+                <div class="mb-5 lg:mb-0 ">
+                    <h1 class="text-4xl leading-[1.5] font-bold mb-10 poppins text-black"><span
+                            class="text-(--accent-color) hover:text-zinc-500 transition-all duration-300">Budgethook</span>
+                        Has The Best <br> Information and Deals For You</h1>
+
+                    <div class="flex flex-col w-full lg:w-5/12 ">
+                        <span class="poppins text-lg font-semibold text-black mb-2">Find us on</span>
+                        <div class="flex gap-5 justify-between">
+                            <button
+                                class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Read
+                                More</button>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-6/12 ">
+                <!-- Swiper -->
+                <div class="swiper mySwiper rounded-lg !h-[25rem]">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/scenery-1.jpg" alt="" class="">
+                        </div>
+                        <!-- <div class="swiper-slide">
+                            <img src="assets/scenery-2.jpg" alt="">
+                        </div> -->
+                        <div class="swiper-slide">
+                            <img src="assets/scenery-3.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/cycle-3.jpg" alt="">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/car-1.jpg" alt="">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/fashion-1.jpg" alt="">
+                        </div>
+                        
+                    </div>
+                    <!-- <div class="swiper-button-next"></div> -->
+                    <!-- <div class="swiper-button-prev"></div> -->
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+
+
+    <!-- popular catagories section start -->
+    <section class="w-full container mt-20 mb-20 px-5 py-8 lg:px-10 mx-auto max-w-[1300px] bg-stone-100">
+        <!-- popular catagories heading -->
+        <div class="flex justify-between mt-5 mb-10 border-b-1 py-2 border-stone-500">
+            <h4 class="text-4xl font-bold poppins text-black ">Popular Categories</h4>
+            <button href="#" class="button" style="--clr: #7808d0">
+                <span class="button__icon-wrapper">
+                    <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg"
+                        width="10">
+                        <path
+                            d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                            fill="currentColor"></path>
+                    </svg>
+
+                    <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg"
+                        class="button__icon-svg button__icon-svg--copy">
+                        <path
+                            d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                            fill="currentColor"></path>
+                    </svg>
+                </span>
+            </button>
+        </div>
+
+
+        <div class="flex flex-wrap gap-2 xl:gap-3 justify-center mb-10">
+
+
+            <!-- card start-->
+            <div>
+                <div
+                    class="w-full rounded-lg overflow-hidden shadow-stone-950/5 max-w-[13rem] transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 ">
+                    <a href="categories.html">
+                        <div class="w-[calc(100%-16px)] h-[12rem] overflow-hidden rounded rounded-b-none m-2 mb-0">
+                            <img src="assets/vacation-1.jpg" alt="profile-picture"
+                                class="w-full h-full object-cover transition-all hover:scale-120 duration-300 " />
+
+                        </div>
+                        <div class="w-full h-max rounded px-2 text-center">
+                            <h5
+                                class="poppins antialiased text-lg font-normal text-white bg-(--accent-color) py-1 mb-2 w-full rounded-b ">
+                                Vacation
+                            </h5>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- popular catagories card end -->
+
+            <!-- card start-->
+            <div>
+                <div
+                    class="w-full rounded-lg overflow-hidden max-w-[13rem] transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 ">
+                    <div class=>
+                        <a href="categories.html">
+                            <div class="w-[calc(100%-16px)] h-[12rem] overflow-hidden rounded rounded-b-none m-2 mb-0">
+                                <img src="assets/cycle-1.jpg" alt="profile-picture"
+                                    class="w-full h-full object-cover transition-all hover:scale-120 duration-300 " />
+
+                            </div>
+                            <div class="w-full h-max rounded px-2 text-center">
+                                <h5
+                                    class="poppins antialiased text-lg font-normal text-white bg-(--accent-color) py-1 mb-2 w-full rounded-b ">
+                                    Cycling
+                                </h5>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- popular catagories card end -->
+
+            <!-- card start-->
+            <div>
+                <div
+                    class="w-full rounded-lg  overflow-hidden max-w-[13rem] transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 ">
+                    <a href="categories.html">
+                        <div class="w-[calc(100%-16px)] h-[12rem] overflow-hidden rounded rounded-b-none m-2 mb-0">
+                            <img src="assets/fashion-1.jpg" alt="profile-picture"
+                                class="w-full h-full object-cover transition-all hover:scale-120 duration-300 " />
+
+                        </div>
+                        <div class="w-full h-max rounded px-2 text-center">
+                            <h5
+                                class="poppins antialiased text-lg font-normal text-white bg-(--accent-color) py-1 mb-2 w-full rounded-b ">
+                                Fashion
+                            </h5>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- popular catagories card end -->
+
+            <!-- card start-->
+            <div>
+                <div
+                    class="w-full rounded-lg  overflow-hidden max-w-[13rem] transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 ">
+                    <a href="categories.html">
+                        <div class="w-[calc(100%-16px)] h-[12rem] overflow-hidden rounded rounded-b-none m-2 mb-0">
+                            <img src="assets/car-1.jpg" alt="profile-picture"
+                                class="w-full h-full object-cover transition-all hover:scale-120 duration-300 " />
+
+                        </div>
+                        <div class="w-full h-max rounded px-2 text-center">
+                            <h5
+                                class="poppins antialiased text-lg font-normal text-white bg-(--accent-color) py-1 mb-2 w-full rounded-b ">
+                                Vehicles
+                            </h5>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- popular catagories card end -->
+
+            <!-- card start-->
+            <div>
+                <div
+                    class="w-full rounded-lg overflow-hidden  max-w-[13rem] transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 ">
+                    <a href="categories.html">
+                        <div class="w-[calc(100%-16px)] h-[12rem] overflow-hidden rounded rounded-b-none m-2 mb-0">
+                            <img src="assets/cycle-3.jpg" alt="profile-picture"
+                                class="w-full h-full object-cover transition-all hover:scale-120 duration-300 " />
+
+                        </div>
+                        <div class="w-full h-max rounded px-2 text-center">
+                            <h5
+                                class="poppins antialiased text-lg font-normal text-white bg-(--accent-color) py-1 mb-2 w-full rounded-b ">
+                                Sports
+                            </h5>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- popular catagories card end -->
+
+
+
+
+
+        </div>
+
+
+
+    </section>
+    <!-- popular catagories section end -->
+
+
+    <!-- editors pick section start -->
+    <section class="w-full container mt-20 mb-20 px-5 py-8 lg:px-10 mx-auto max-w-[1300px] bg-stone-100  ">
+        <!-- editors pick heading -->
+        <div class="flex justify-between mt-5 mb-10 border-b-1 py-2 border-stone-500 ">
+            <h4 class="text-4xl font-bold poppins text-black ">Editor's Pick</h4>
+        </div>
+
+        <div class="flex justify-center gap-5 mb-10">
+
+            <a href="blogpost.html">
+                <div
+                    class="group rounded-lg border shadow-sm bg-white border-stone-200 shadow-stone-950/5 relative flex h-[35rem] w-full max-w-[32rem] flex-col overflow-hidden ">
+                    <div class="w-[calc(100%-16px)] h-max rounded m-2">
+                        <div
+                            class="absolute inset-0 m-0 h-full w-full rounded-none bg-[url('assets/cycle-1.jpg')] bg-cover bg-center transiton-all duration-700 group-hover:scale-110">
+                        </div>
+                    </div>
+                    <div
+                        class="w-full rounded relative bottom-0 flex h-full flex-col justify-center px-6 py-4 md:px-12">
+                        <div
+                            class="w-full h-max px-4 py-4 rounded-lg bg-white/85 shadow-stone-950/5 flex justify-between backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75">
+                            <div>
+                                <small
+                                    class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">3
+                                    Minutes</small>
+                                <h6
+                                    class="poppins font-sans antialiased font-bold text-xl md:text-2xl lg:text-3xl text-black mt-2">
+                                    Travelling tips for a memorable vacation</h6>
+
+                                <div class="flex gap-5 justify-between mt-2 items-center">
+
+                                    <p class="poppins antialiased text-base mt-1 text-stone-600">posted on <span
+                                            class="text-(--accent-color)"> 20 July 2025 </span></p>
+                                    <!-- From Uiverse.io by Creatlydev -->
+                                    <button href="blogpost.html" class="button" style="--clr: #7808d0">
+                                        <span class="button__icon-wrapper">
+                                            <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                class="button__icon-svg" width="10">
+                                                <path
+                                                    d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                    fill="currentColor"></path>
+                                            </svg>
+
+                                            <svg viewBox="0 0 14 15" fill="none" width="10"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                class="button__icon-svg button__icon-svg--copy">
+                                                <path
+                                                    d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                    fill="currentColor"></path>
+                                            </svg>
+                                        </span>
+
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="blogpost.html">
+                <div
+                    class="group rounded-lg border shadow-sm bg-white border-stone-200 shadow-stone-950/5 relative flex h-[35rem] w-full max-w-[32rem] flex-col overflow-hidden ">
+                    <div class="w-[calc(100%-16px)] h-max rounded m-2">
+                        <div
+                            class="absolute inset-0 m-0 h-full w-full rounded-none bg-[url('assets/car-1.jpg')] bg-cover bg-center transiton-all duration-700 group-hover:scale-110">
+                        </div>
+                    </div>
+                    <div
+                        class="w-full rounded relative bottom-0 flex h-full flex-col justify-center px-6 py-4 md:px-12">
+                        <div
+                            class="w-full h-max px-4 py-4 rounded-lg bg-white/85 shadow-stone-950/5 flex justify-between backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75">
+                            <div>
+                                <small
+                                    class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">3
+                                    Minutes</small>
+                                <h6
+                                    class="poppins font-sans antialiased font-bold text-xl md:text-2xl lg:text-3xl text-black mt-2">
+                                    Travelling tips for a memorable vacation</h6>
+
+                                <div class="flex gap-5 justify-between mt-2 items-center">
+
+                                    <p class="poppins antialiased text-base mt-1 text-stone-600">posted on <span
+                                            class="text-(--accent-color)"> 20 July 2025 </span></p>
+                                    <!-- From Uiverse.io by Creatlydev -->
+                                    <button href="blogpost.html" class="button" style="--clr: #7808d0">
+                                        <span class="button__icon-wrapper">
+                                            <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                class="button__icon-svg" width="10">
+                                                <path
+                                                    d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                    fill="currentColor"></path>
+                                            </svg>
+
+                                            <svg viewBox="0 0 14 15" fill="none" width="10"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                class="button__icon-svg button__icon-svg--copy">
+                                                <path
+                                                    d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                    fill="currentColor"></path>
+                                            </svg>
+                                        </span>
+
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+
+
+
+        </div>
+
+
+
+    </section>
+    <!-- editors pick section end -->
+
+
+    <!-- featured post section start -->
+    <section class="w-full container mt-20 mb-20 px-5 py-8 lg:px-10 mx-auto max-w-[1300px] bg-stone-100">
+
+        <!-- featured posts heading -->
+        <div class="flex justify-between mt-5 mb-10 border-b-1 py-2 border-stone-500">
+            <h4 class="text-4xl font-bold poppins text-black  ">Featured Posts</h4>
+
+        </div>
+
+
+        <!-- row-1 start -->
+        <div class="flex flex-col lg:flex-row gap-5">
+
+
+
+            <figure class="relative h-[17rem] w-full rounded-xl overflow-hidden group cursor-pointer">
+                <a href="blogpost.html">
+                    <img src="assets/vacation-1.jpg" alt="nature-image"
+                        class="h-full w-full rounded-xl object-cover object-center transition-all group-hover:scale-110 duration-500" />
+                    <figcaption
+                        class="rounded-lg shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 absolute bottom-4 left-1/2 w-[calc(100%-2rem)] -translate-x-1/2 bg-opacity-75  backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75">
+                        <div class="w-full h-max rounded flex justify-between px-4 py-4">
+                            <div>
+                                <small
+                                    class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">3
+                                    Minutes</small>
+                                <h6
+                                    class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current mt-2">
+                                    Travelling tips for a memorable vacation</h6>
+                                <p class="poppins antialiased text-base mt-1 text-stone-600 mr-5">posted on <span
+                                        class="text-(--accent-color)"> 20 July 2025 </span></p>
+
+
+
+                            </div>
+                            <div class="flex flex-col items-center justify-between">
+                                <p class="poppins antialiased text-base text-current font-bold">Travel</p>
+                                <button href="#" class="button" style="--clr: #7808d0">
+                                    <span class="button__icon-wrapper">
+                                        <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                            class="button__icon-svg" width="10">
+                                            <path
+                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                fill="currentColor"></path>
+                                        </svg>
+
+                                        <svg viewBox="0 0 14 15" fill="none" width="10"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="button__icon-svg button__icon-svg--copy">
+                                            <path
+                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                    </span>
+
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </figcaption>
+                </a>
+            </figure>
+
+            <figure class="relative h-[17rem] w-full rounded-xl overflow-hidden group cursor-pointer">
+                <a href="blogpost.html">
+                    <img src="assets/car-1.jpg" alt="nature-image"
+                        class="h-full w-full rounded-xl object-cover object-center transition-all group-hover:scale-110 duration-500" />
+                    <figcaption
+                        class="rounded-lg shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 absolute bottom-4 left-1/2 w-[calc(100%-2rem)] -translate-x-1/2 bg-opacity-75 backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75">
+                        <div class="w-full h-max rounded flex justify-between px-4 py-4">
+                            <div>
+                                <small
+                                    class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">5
+                                    Minutes</small>
+                                <h6
+                                    class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current mt-2">
+                                    The Future of Electric Cars: Trends and Innovations</h6>
+                                <p class="poppins antialiased text-base mt-1 text-stone-600">posted on <span
+                                        class="text-(--accent-color)"> 5 August 2025 </span></p>
+                            </div>
+                            <div class="flex flex-col items-center justify-between">
+                                <p class="poppins antialiased text-base text-current font-bold">Vehicles</p>
+                                <button href="#" class="button" style="--clr: #7808d0">
+                                    <span class="button__icon-wrapper">
+                                        <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                            class="button__icon-svg" width="10">
+                                            <path
+                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                fill="currentColor"></path>
+                                        </svg>
+
+                                        <svg viewBox="0 0 14 15" fill="none" width="10"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="button__icon-svg button__icon-svg--copy">
+                                            <path
+                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                    </span>
+
+                                </button>
+                            </div>
+                        </div>
+                    </figcaption>
+                </a>
+            </figure>
+
+
+
+
+        </div>
+        <!-- row-1 end -->
+
+
+        <!-- row-2 start -->
+        <div class="flex flex-col lg:flex-row gap-5 mt-5 mb-10">
+            <div class="w-full lg:w-6/12">
+                <figure class="relative h-[17rem] w-full overflow-hidden rounded-xl group cursor-pointer">
+                    <a href="blogpost.html">
+                        <img src="assets/fashion-1.jpg" alt="nature-image"
+                            class="h-full w-full object-cover object-center  transition-all group-hover:scale-110 duration-500" />
+                        <figcaption
+                            class="rounded-lg shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 absolute bottom-4 left-1/2 w-[calc(100%-2rem)] -translate-x-1/2 bg-opacity-75 backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75">
+                            <div class="w-full h-max rounded flex justify-between px-4 py-4">
+                                <div>
+                                    <small
+                                        class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">4
+                                        Minutes</small>
+                                    <h6
+                                        class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current mt-2">
+                                        Top 10 UAE brands changing the game</h6>
+                                    <p class="poppins antialiased text-base mt-1 text-stone-600">posted on <span
+                                            class="text-(--accent-color)"> 5 April 2025 </span></p>
+                                </div>
+                                <div class="flex flex-col items-center justify-between">
+                                    <p class="poppins antialiased text-base text-current font-bold">Fashion</p>
+                                    <button href="#" class="button" style="--clr: #7808d0">
+                                        <span class="button__icon-wrapper">
+                                            <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                class="button__icon-svg" width="10">
+                                                <path
+                                                    d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                    fill="currentColor"></path>
+                                            </svg>
+
+                                            <svg viewBox="0 0 14 15" fill="none" width="10"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                class="button__icon-svg button__icon-svg--copy">
+                                                <path
+                                                    d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                    fill="currentColor"></path>
+                                            </svg>
+                                        </span>
+
+                                    </button>
+                                </div>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
+            </div>
+
+
+
+            <div class="w-full lg:w-6/12 gap-5">
+                <div class="flex gap-5">
+                    <figure class="relative h-[17rem] w-full overflow-hidden rounded-xl group cursor-pointer">
+                        <a href="blogpost.html">
+                            <img src="assets/cycle-3.jpg" alt="nature-image"
+                                class="h-full w-full  object-cover object-center transition-all group-hover:scale-110 duration-500" />
+                            <figcaption
+                                class="rounded-lg shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 absolute bottom-4 left-1/2 w-[calc(100%-2rem)] -translate-x-1/2 bg-opacity-75 backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75">
+                                <div class="w-full h-max rounded flex justify-between px-4 py-4">
+                                    <div>
+                                        <small
+                                            class="poppins antialiased text-sm mb-8  text-white bg-(--accent-color) px-2 py-1 rounded-md">4
+                                            Minutes</small>
+                                        <h6
+                                            class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current mt-2">
+                                            Top 10 UAE brands changing the game</h6>
+                                        <p class="poppins antialiased text-base mt-1 text-stone-600">posted on <span
+                                                class="text-(--accent-color)"> 5 April 2025 </span></p>
+                                    </div>
+                                    <div class="flex flex-col items-center justify-between">
+                                        <p class="poppins antialiased text-base text-current font-bold">Travel</p>
+                                        <button href="#" class="button" style="--clr: #7808d0">
+                                            <span class="button__icon-wrapper">
+                                                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    class="button__icon-svg" width="10">
+                                                    <path
+                                                        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                        fill="currentColor"></path>
+                                                </svg>
+
+                                                <svg viewBox="0 0 14 15" fill="none" width="10"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    class="button__icon-svg button__icon-svg--copy">
+                                                    <path
+                                                        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                        fill="currentColor"></path>
+                                                </svg>
+                                            </span>
+
+                                        </button>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </a>
+                    </figure>
+
+                    <figure class="relative h-[17rem] w-full overflow-hidden rounded-xl group cursor-pointer">
+                        <a href="blogpost.html">
+                            <img src="assets/cycle-3.jpg" alt="nature-image"
+                                class="h-full w-full  object-cover object-center transition-all group-hover:scale-110 duration-500" />
+                            <figcaption
+                                class="rounded-lg shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 absolute bottom-4 left-1/2 w-[calc(100%-2rem)] -translate-x-1/2 bg-opacity-75 backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75">
+                                <div class="w-full h-max rounded flex justify-between px-4 py-4">
+                                    <div>
+                                        <small
+                                            class="poppins antialiased text-sm mb-8  text-white bg-(--accent-color) px-2 py-1 rounded-md">4
+                                            Minutes</small>
+                                        <h6
+                                            class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current mt-2">
+                                            Top 10 UAE brands changing the game</h6>
+                                        <p class="poppins antialiased text-base mt-1 text-stone-600">posted on <span
+                                                class="text-(--accent-color)"> 5 April 2025 </span></p>
+                                    </div>
+                                    <div class="flex flex-col items-center justify-between">
+                                        <p class="poppins antialiased text-base text-current font-bold">Travel</p>
+                                        <button href="#" class="button" style="--clr: #7808d0">
+                                            <span class="button__icon-wrapper">
+                                                <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    class="button__icon-svg" width="10">
+                                                    <path
+                                                        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                        fill="currentColor"></path>
+                                                </svg>
+
+                                                <svg viewBox="0 0 14 15" fill="none" width="10"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    class="button__icon-svg button__icon-svg--copy">
+                                                    <path
+                                                        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                        fill="currentColor"></path>
+                                                </svg>
+                                            </span>
+
+                                        </button>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <!-- row-2 end -->
+
+
+    </section>
+    <!-- featured post section end -->
+
+    <!-- latest post section start -->
+    <section class="w-full container mt-20 mb-20 px-5 py-8 lg:px-10 mx-auto max-w-[1300px] bg-stone-100">
+
+        <!-- latest post heading -->
+        <div class="flex justify-between mt-5 mb-10 border-b-1 py-2 border-stone-500">
+            <h4 class="text-4xl font-bold poppins text-black  ">Latest Posts</h4>
+
+        </div>
+
+        <div class="flex flex-col lg:flex-row gap-5 mt-5 mb-10 py-2 px-2">
+            <!-- left-container -->
+            <div class="flex flex-col lg:w-5/12 max-h-[50rem] overflow-auto items-center bg-stone-100">
+                <div class=" h-[35.25rem] overflow-auto bg-white  [&::-webkit-scrollbar]:w-2
+                    [&::-webkit-scrollbar-track]:rounded-full
+                    [&::-webkit-scrollbar-track]:bg-gray-100
+                    [&::-webkit-scrollbar-thumb]:rounded-full
+                    [&::-webkit-scrollbar-thumb]:bg-gray-300
+                    dark:[&::-webkit-scrollbar-thumb]:bg-neutral-300">
+                    <!-- Tall content -->
+                    <div class="space-y-4 px-2 bg-stone-100">
+                        <!-- row -->
+                        <div class=" bg-stone-100">
+                            <a href="blogpost.html">
+                                <div
+                                    class="rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 flex h-[8rem] w-full max-w-[48rem] flex-row transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                    <div class="rounded m-0 h-full w-3/5 rounded-r-none">
+                                        <img src="assets/car-1.jpg" alt="card-image"
+                                            class="h-full w-full object-cover" />
+                                    </div>
+                                    <div class="w-full h-max rounded p-4">
+                                        <small
+                                            class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">3
+                                            Minutes</small>
+                                        <h5
+                                            class="poppins antialiased font-bold text-md md:text-lg lg:text-lg text-current mt-2 mb-2">
+                                            Lyft launching cross-platform service this week</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- row -->
+
+                        <div>
+                            <a href="blogpost.html">
+                                <div
+                                    class="rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 flex h-[8rem] w-full max-w-[48rem] flex-row  transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                    <div class="rounded m-0 h-full w-3/5 rounded-r-none">
+                                        <img src="assets/cycle-1.jpg" alt="card-image"
+                                            class="h-full w-full object-cover" />
+                                    </div>
+                                    <div class="w-full h-max rounded p-4">
+                                        <small
+                                            class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">3
+                                            Minutes</small>
+                                        <h5
+                                            class="poppins antialiased font-bold text-md md:text-lg lg:text-lg text-current mt-2 mb-2">
+                                            Lyft launching cross-platform service this week</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- row -->
+
+                        <div>
+
+                            <a href="blogpost.html">
+                                <div
+                                    class="rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 flex h-[8rem] w-full max-w-[48rem] flex-row  transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                    <div class="rounded m-0 h-full w-3/5 rounded-r-none">
+                                        <img src="assets/cycle-3.jpg" alt="card-image"
+                                            class="h-full w-full object-cover" />
+                                    </div>
+                                    <div class="w-full h-max rounded p-4">
+                                        <small
+                                            class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">3
+                                            Minutes</small>
+                                        <h5
+                                            class="poppins antialiased font-bold text-md md:text-lg lg:text-lg text-current mt-2 mb-2">
+                                            Lyft launching cross-platform service this week</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- row -->
+                        <div>
+                            <a href="blogpost.html">
+                                <div
+                                    class="rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 flex h-[8rem] w-full max-w-[48rem] flex-row  transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                    <div class="rounded m-0 h-full w-3/5 rounded-r-none">
+                                        <img src="assets/fashion-1.jpg" alt="card-image"
+                                            class="h-full w-full object-cover" />
+                                    </div>
+                                    <div class="w-full h-max rounded p-4">
+                                        <small
+                                            class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">3
+                                            Minutes</small>
+                                        <h5
+                                            class="poppins antialiased font-bold text-md md:text-lg lg:text-lg text-current mt-2 mb-2">
+                                            Lyft launching cross-platform service this week</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- row -->
+                        <div>
+                            <a href="blogpost.html">
+                                <div
+                                    class="rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 flex h-[8rem] w-full max-w-[48rem] flex-row  transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                    <div class="rounded m-0 h-full w-3/5 rounded-r-none">
+                                        <img src="assets/scenery-1.jpg" alt="card-image"
+                                            class="h-full w-full object-cover" />
+                                    </div>
+                                    <div class="w-full h-max rounded p-4">
+                                        <small
+                                            class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">3
+                                            Minutes</small>
+                                        <h5
+                                            class="poppins antialiased font-bold text-md md:text-lg lg:text-lg text-current mt-2 mb-2">
+                                            Lyft launching cross-platform service this week</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- row -->
+                        <div class="pb-3">
+                            <div>
+                                <a href="blogpost.html">
+                                    <div
+                                        class="rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 flex h-[8rem] w-full max-w-[48rem] flex-row  transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                        <div class="rounded m-0 h-full w-3/5 rounded-r-none">
+                                            <img src="assets/scenery-3.jpg" alt="card-image"
+                                                class="h-full w-full object-cover " />
+                                        </div>
+                                        <div class="w-full h-max rounded p-4">
+                                            <small
+                                                class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">3
+                                                Minutes</small>
+                                            <h5
+                                                class="poppins antialiased font-bold text-md md:text-lg lg:text-lg text-current mt-2 mb-2">
+                                                Lyft launching cross-platform service this week</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- right-container -->
+            <div class="w-full lg:w-7/12 ">
+                <!-- Swiper -->
+                <div class="swiper mySwiper  max-h-[50rem] rounded-lg">
+                    <div class="swiper-wrapper rounded-lg">
+                        <div class="swiper-slide rounded-lg">
+                            <div class="flex flex-row gap-5">
+                                <div class="w-6/12 rounded-lg overflow-hidden h-[35.25rem]">
+                                    <figure
+                                        class="relative h-full w-full overflow-hidden rounded-xl group cursor-pointer">
+                                        <a href="shop.html">
+                                            <img src="assets/cycle-3.jpg" alt="nature-image"
+                                                class="h-full w-full  object-cover object-center transition-all group-hover:opacity-55 duration-500" />
+                                            <figcaption
+                                                class=" shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 absolute bottom-4 left-1/2 w-[calc(100%-2rem)] -translate-x-1/2 bg-opacity-75 backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75 group-hover:bg-(--accent-color)">
+                                                <div class="w-full h-max rounded flex justify-between px-4 py-4 items-center">
+                                                    <div>
+                            
+                                                        <h6
+                                                            class="text-left mr-3 poppins antialiased font-bold text-base md:text-md lg:text-lg text-current mt-2 group-hover:text-white">
+                                                            Braided Jelly Flops</h6>
+                                                        <h4
+                                                            class="text-left poppins antialiased font-normal text-md md:text-md lg:text-md text-current mb-2 group-hover:text-white">
+                                                            <span class="line-through">$18</span> $9
+                                                        </h4>
+
+
+                                                    </div>
+                                                    <div class="flex flex-col items-center justify-between">
+                                                        <a href="shop.html">
+                                                            <div class="w-full rounded ">
+                                                                <button
+                                                                    class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white group-hover:text-black group-hover:bg-zinc-200 transition-all duration-300 group-hover:scale-110">Shop
+                                                                    Now</button>
+                                                            </div>
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+
+
+                                <div class="w-6/12 rounded-lg overflow-hidden h-[35.25rem]">
+                                    <figure
+                                        class="relative h-full w-full overflow-hidden rounded-xl group cursor-pointer">
+                                        <a href="shop.html">
+                                            <img src="assets/scenery-2.jpg" alt="nature-image"
+                                                class="h-full w-full  object-cover object-center transition-all group-hover:opacity-55 duration-500" />
+                                            <figcaption
+                                                class=" shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 absolute bottom-4 left-1/2 w-[calc(100%-2rem)] -translate-x-1/2 bg-opacity-75 backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75 group-hover:bg-(--accent-color)">
+                                                <div class="w-full h-max rounded flex justify-between px-4 py-4 items-center">
+                                                    <div>
+                            
+                                                        <h6
+                                                            class="text-left mr-3 poppins antialiased font-bold text-base md:text-md lg:text-lg text-current mt-2 group-hover:text-white">
+                                                            Braided Jelly Flops</h6>
+                                                        <h4
+                                                            class="text-left poppins antialiased font-normal text-md md:text-md lg:text-md text-current mb-2 group-hover:text-white">
+                                                            <span class="line-through">$18</span> $9
+                                                        </h4>
+
+
+                                                    </div>
+                                                    <div class="flex flex-col items-center justify-between">
+                                                        <a href="shop.html">
+                                                            <div class="w-full rounded ">
+                                                                <button
+                                                                    class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white group-hover:text-black group-hover:bg-zinc-200 transition-all duration-300 group-hover:scale-110">Shop
+                                                                    Now</button>
+                                                            </div>
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide rounded-lg">
+                            <div class="flex flex-row gap-5">
+                                <div class="w-6/12 rounded-lg overflow-hidden h-[35.25rem]">
+                                    <figure
+                                        class="relative h-full w-full overflow-hidden rounded-xl group cursor-pointer">
+                                        <a href="shop.html">
+                                            <img src="assets/car-1.jpg" alt="nature-image"
+                                                class="h-full w-full  object-cover object-center transition-all group-hover:opacity-55 duration-500" />
+                                            <figcaption
+                                                class=" shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 absolute bottom-4 left-1/2 w-[calc(100%-2rem)] -translate-x-1/2 bg-opacity-75 backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75 group-hover:bg-(--accent-color)">
+                                                <div class="w-full h-max rounded flex justify-between px-4 py-4 items-center">
+                                                    <div>
+                            
+                                                        <h6
+                                                            class="text-left mr-3 poppins antialiased font-bold text-base md:text-md lg:text-lg text-current mt-2 group-hover:text-white">
+                                                            Braided Jelly Flops</h6>
+                                                        <h4
+                                                            class="text-left poppins antialiased font-normal text-md md:text-md lg:text-md text-current mb-2 group-hover:text-white">
+                                                            <span class="line-through">$18</span> $9
+                                                        </h4>
+
+
+                                                    </div>
+                                                    <div class="flex flex-col items-center justify-between">
+                                                        <a href="shop.html">
+                                                            <div class="w-full rounded ">
+                                                                <button
+                                                                    class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white group-hover:text-black group-hover:bg-zinc-200 transition-all duration-300 group-hover:scale-110">Shop
+                                                                    Now</button>
+                                                            </div>
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="w-6/12 rounded-lg overflow-hidden h-[35.25rem]">
+                                    <figure
+                                        class="relative h-full w-full overflow-hidden rounded-xl group cursor-pointer">
+                                        <a href="shop.html">
+                                            <img src="assets/fashion-1.jpg" alt="nature-image"
+                                                class="h-full w-full  object-cover object-center transition-all group-hover:opacity-55 duration-500" />
+                                            <figcaption
+                                                class=" shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 absolute bottom-4 left-1/2 w-[calc(100%-2rem)] -translate-x-1/2 bg-opacity-75 backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75 group-hover:bg-(--accent-color)">
+                                                <div class="w-full h-max rounded flex justify-between px-4 py-4 items-center">
+                                                    <div>
+                            
+                                                        <h6
+                                                            class="text-left mr-3 poppins antialiased font-bold text-base md:text-md lg:text-lg text-current mt-2 group-hover:text-white">
+                                                            Braided Jelly Flops</h6>
+                                                        <h4
+                                                            class="text-left poppins antialiased font-normal text-md md:text-md lg:text-md text-current mb-2 group-hover:text-white">
+                                                            <span class="line-through">$18</span> $9
+                                                        </h4>
+
+
+                                                    </div>
+                                                    <div class="flex flex-col items-center justify-between">
+                                                        <a href="shop.html">
+                                                            <div class="w-full rounded ">
+                                                                <button
+                                                                    class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white group-hover:text-black group-hover:bg-zinc-200 transition-all duration-300 group-hover:scale-110">Shop
+                                                                    Now</button>
+                                                            </div>
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide rounded-lg">
+                            <div class="flex flex-row gap-5">
+                                <div class="w-6/12 rounded-lg overflow-hidden h-[35.25rem]">
+                                    <figure
+                                        class="relative h-full w-full overflow-hidden rounded-xl group cursor-pointer">
+                                        <a href="shop.html">
+                                            <img src="assets/scenery-3.jpg" alt="nature-image"
+                                                class="h-full w-full  object-cover object-center transition-all group-hover:opacity-55 duration-500" />
+                                            <figcaption
+                                                class=" shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 absolute bottom-4 left-1/2 w-[calc(100%-2rem)] -translate-x-1/2 bg-opacity-75 backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75 group-hover:bg-(--accent-color)">
+                                                <div class="w-full h-max rounded flex justify-between px-4 py-4 items-center">
+                                                    <div>
+                            
+                                                        <h6
+                                                            class="text-left mr-3 poppins antialiased font-bold text-base md:text-md lg:text-lg text-current mt-2 group-hover:text-white">
+                                                            Braided Jelly Flops</h6>
+                                                        <h4
+                                                            class="text-left poppins antialiased font-normal text-md md:text-md lg:text-md text-current mb-2 group-hover:text-white">
+                                                            <span class="line-through">$18</span> $9
+                                                        </h4>
+
+
+                                                    </div>
+                                                    <div class="flex flex-col items-center justify-between">
+                                                        <a href="shop.html">
+                                                            <div class="w-full rounded ">
+                                                                <button
+                                                                    class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white group-hover:text-black group-hover:bg-zinc-200 transition-all duration-300 group-hover:scale-110">Shop
+                                                                    Now</button>
+                                                            </div>
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="w-6/12 rounded-lg overflow-hidden h-[35.25rem]">
+                                    <figure
+                                        class="relative h-full w-full overflow-hidden rounded-xl group cursor-pointer">
+                                        <a href="shop.html">
+                                            <img src="assets/cycle-1.jpg" alt="nature-image"
+                                                class="h-full w-full  object-cover object-center transition-all group-hover:opacity-55 duration-500" />
+                                            <figcaption
+                                                class=" shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 absolute bottom-4 left-1/2 w-[calc(100%-2rem)] -translate-x-1/2 bg-opacity-75 backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75 group-hover:bg-(--accent-color)">
+                                                <div class="w-full h-max rounded flex justify-between px-4 py-4 items-center">
+                                                    <div>
+                            
+                                                        <h6
+                                                            class="text-left mr-3 poppins antialiased font-bold text-base md:text-md lg:text-lg text-current mt-2 group-hover:text-white">
+                                                            Braided Jelly Flops</h6>
+                                                        <h4
+                                                            class="text-left poppins antialiased font-normal text-md md:text-md lg:text-md text-current mb-2 group-hover:text-white">
+                                                            <span class="line-through">$18</span> $9
+                                                        </h4>
+
+
+                                                    </div>
+                                                    <div class="flex flex-col items-center justify-between">
+                                                        <a href="shop.html">
+                                                            <div class="w-full rounded ">
+                                                                <button
+                                                                    class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white group-hover:text-black group-hover:bg-zinc-200 transition-all duration-300 group-hover:scale-110">Shop
+                                                                    Now</button>
+                                                            </div>
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- <div class="swiper-button-next"></div> -->
+                        <!-- <div class="swiper-button-prev"></div> -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+    </section>
+    <!-- latest post section end -->
+
+    <!-- popular post section start -->
+    <section class="w-full container mt-20 px-5 py-8 lg:px-10 mx-auto max-w-[1300px] bg-stone-100 pb-20">
+        <!-- popular posts heading -->
+        <div class="flex justify-between mt-5 mb-10 border-b-1 py-2 border-stone-500">
+            <h4 class="text-4xl font-bold poppins text-black  ">Popular Posts</h4>
+        </div>
+
+
+        <div class="flex justify-center gap-10 flex-col lg:flex-row">
+            <!-- left-container -->
+            <div class="w-full lg:w-6/12">
+                <div class="flex flex-col">
+                    <!-- row-1 -->
+                    <div class="w-full">
+                        <figure class="relative h-[17rem] w-full overflow-hidden rounded-xl group cursor-pointer">
+                            <a href="blogpost.html">
+                                <img src="assets/cycle-1.jpg" alt="nature-image"
+                                    class="h-full w-full  object-cover object-center  transition-all group-hover:scale-110 duration-500" />
+                                <figcaption
+                                    class="rounded-lg shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 absolute bottom-4 left-1/2 w-[calc(100%-2rem)] -translate-x-1/2 bg-opacity-75 backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75">
+                                    <div class="w-full h-max rounded flex justify-between px-4 py-4">
+                                        <div>
+                                            <small
+                                                class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">4
+                                                Minutes</small>
+                                            <h6
+                                                class="poppins antialiased font-bold text-base md:text-md lg:text-xl text-current mt-2">
+                                                Top 10 UAE brands changing the game</h6>
+                                            <p class="poppins antialiased text-base mt-1 text-stone-600">posted on <span
+                                                    class="text-(--accent-color)"> 5 April 2025 </span></p>
+                                        </div>
+                                        <div class="flex flex-col items-center justify-between">
+                                            <p class="poppins antialiased text-base text-current font-bold">Fashion</p>
+                                            <button href="#" class="button" style="--clr: #7808d0">
+                                                <span class="button__icon-wrapper">
+                                                    <svg viewBox="0 0 14 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg" class="button__icon-svg"
+                                                        width="10">
+                                                        <path
+                                                            d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                            fill="currentColor"></path>
+                                                    </svg>
+
+                                                    <svg viewBox="0 0 14 15" fill="none" width="10"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        class="button__icon-svg button__icon-svg--copy">
+                                                        <path
+                                                            d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                            fill="currentColor"></path>
+                                                    </svg>
+                                                </span>
+
+                                            </button>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+
+
+
+
+                    <!-- row-2 -->
+
+                    <div class="flex gap-5 mt-5">
+                        <!-- col-1 -->
+                        <div class="w-6/12">
+                            <figure class="relative h-[17rem] w-full overflow-hidden rounded-xl group cursor-pointer">
+                                <a href="blogpost.html">
+                                    <img src="assets/car-1.jpg" alt="nature-image"
+                                        class="h-full w-full  object-cover object-center  transition-all group-hover:scale-110 duration-500" />
+                                    <figcaption
+                                        class="rounded-lg shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 absolute bottom-4 left-1/2 w-[calc(100%-2rem)] -translate-x-1/2 bg-opacity-75 backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75">
+                                        <div class="w-full h-max rounded flex justify-between px-4 py-4">
+                                            <div>
+                                                <small
+                                                    class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">4
+                                                    Minutes</small>
+                                                <h6
+                                                    class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current mt-2">
+                                                    Top 10 UAE brands changing the game</h6>
+                                                <p class="poppins antialiased text-base mt-1 text-stone-600">posted on
+                                                    <span class="text-(--accent-color)"> 5 April 2025 </span>
+                                                </p>
+                                            </div>
+                                            <div class="flex flex-col items-center justify-between">
+                                                <p class="poppins antialiased text-base text-current font-bold">Fashion
+                                                </p>
+                                                <button href="#" class="button" style="--clr: #7808d0">
+                                                    <span class="button__icon-wrapper">
+                                                        <svg viewBox="0 0 14 15" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg" class="button__icon-svg"
+                                                            width="10">
+                                                            <path
+                                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                                fill="currentColor"></path>
+                                                        </svg>
+
+                                                        <svg viewBox="0 0 14 15" fill="none" width="10"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            class="button__icon-svg button__icon-svg--copy">
+                                                            <path
+                                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                                fill="currentColor"></path>
+                                                        </svg>
+                                                    </span>
+
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+
+                        <!-- col-2 -->
+                        <div class="w-6/12">
+                            <figure class="relative h-[17rem] w-full overflow-hidden rounded-xl group cursor-pointer">
+                                <a href="blogpost.html">
+                                    <img src="assets/scenery-1.jpg" alt="nature-image"
+                                        class="h-full w-full  object-cover object-center  transition-all group-hover:scale-110 duration-500" />
+                                    <figcaption
+                                        class="rounded-lg shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 absolute bottom-4 left-1/2 w-[calc(100%-2rem)] -translate-x-1/2 bg-opacity-75 backdrop-blur-md transition-all duration-300 group-hover:-translate-y-0.75">
+                                        <div class="w-full h-max rounded flex justify-between px-4 py-4">
+                                            <div>
+                                                <small
+                                                    class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">4
+                                                    Minutes</small>
+                                                <h6
+                                                    class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current mt-2">
+                                                    Top 10 UAE brands changing the game</h6>
+                                                <p class="poppins antialiased text-base mt-1 text-stone-600">posted on
+                                                    <span class="text-(--accent-color)"> 5 April 2025 </span>
+                                                </p>
+                                            </div>
+                                            <div class="flex flex-col items-center justify-between">
+                                                <p class="poppins antialiased text-base text-current font-bold">Fashion
+                                                </p>
+                                                <button href="#" class="button" style="--clr: #7808d0">
+                                                    <span class="button__icon-wrapper">
+                                                        <svg viewBox="0 0 14 15" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg" class="button__icon-svg"
+                                                            width="10">
+                                                            <path
+                                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                                fill="currentColor"></path>
+                                                        </svg>
+
+                                                        <svg viewBox="0 0 14 15" fill="none" width="10"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            class="button__icon-svg button__icon-svg--copy">
+                                                            <path
+                                                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                                                fill="currentColor"></path>
+                                                        </svg>
+                                                    </span>
+
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- right-container -->
+            <div class="flex flex-col  lg:w-6/12 max-h-[50rem] overflow-auto items-center bg-stone-100">
+                <div class=" h-[35.25rem] overflow-auto bg-white  [&::-webkit-scrollbar]:w-2
+                    [&::-webkit-scrollbar-track]:rounded-full
+                    [&::-webkit-scrollbar-track]:bg-gray-100
+                    [&::-webkit-scrollbar-thumb]:rounded-full
+                    [&::-webkit-scrollbar-thumb]:bg-gray-300
+                    dark:[&::-webkit-scrollbar-thumb]:bg-neutral-300">
+                    <!-- Tall content -->
+                    <div class="space-y-4 px-2 bg-stone-100">
+                        <!-- row -->
+                        <div class="flex gap-5">
+                            <!-- left-card -->
+                            <div
+                                class="w-full rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 max-w-xs transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                <div class="px-2 py-2"><img src="assets/cycle-1.jpg" alt="image"
+                                        class="w-[calc(100%-16px)] h-[10rem] rounded-lg m-2" />
+                                    <div class="w-full h-max rounded px-3.5 py-2.5">
+
+                                        <h6
+                                            class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current">
+                                            Cycling blog</h6>
+
+                                    </div>
+                                    <div class="w-full px-3.5 pt-2 pb-3.5 rounded">
+                                        <a href="blogpost.html">
+                                            <button
+                                                class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Read
+                                                More</button>
+                                        </a>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <!-- right-card -->
+                            <div
+                                class="w-full rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 max-w-xs transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                <div class="px-2 py-2"><img src="assets/fashion-1.jpg" alt="image"
+                                        class="w-[calc(100%-16px)] h-[10rem] rounded-lg m-2" />
+                                    <div class="w-full h-max rounded px-3.5 py-2.5">
+
+                                        <h6
+                                            class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current">
+                                            Fashion blog</h6>
+
+                                    </div>
+                                    <div class="w-full px-3.5 pt-2 pb-3.5 rounded">
+                                        <a href="blogpost.html">
+                                            <button
+                                                class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Read
+                                                More</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- row -->
+                        <div class="flex gap-5">
+                            <!-- left-card -->
+                            <div
+                                class="w-full rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 max-w-xs transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                <div class="px-2 py-2"><img src="assets/car-1.jpg" alt="image"
+                                        class="w-[calc(100%-16px)] h-[10rem] rounded-lg m-2" />
+                                    <div class="w-full h-max rounded px-3.5 py-2.5">
+
+                                        <h6
+                                            class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current">
+                                            UI/UX Review Check</h6>
+
+                                    </div>
+                                    <div class="w-full px-3.5 pt-2 pb-3.5 rounded">
+                                        <a href="blogpost.html">
+                                            <button
+                                                class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Read
+                                                More</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- right-card -->
+                            <div
+                                class="w-full rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 max-w-xs transition-ALL duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                <div class="px-2 py-2"><img src="assets/scenery-1.jpg" alt="image"
+                                        class="w-[calc(100%-16px)] h-[10rem] rounded-lg m-2" />
+                                    <div class="w-full h-max rounded px-3.5 py-2.5">
+
+                                        <h6
+                                            class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current">
+                                            Travelling blog</h6>
+
+                                    </div>
+                                    <div class="w-full px-3.5 pt-2 pb-3.5 rounded">
+                                        <a href="">
+                                            <button
+                                                class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Read
+                                                More</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- row -->
+                        <div class="flex gap-5">
+                            <!-- left-card -->
+                            <div
+                                class="w-full rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 max-w-xs transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                <div class="px-2 py-2"><img src="assets/cycle-1.jpg" alt="image"
+                                        class="w-[calc(100%-16px)] h-[10rem] rounded-lg m-2" />
+                                    <div class="w-full h-max rounded px-3.5 py-2.5">
+
+                                        <h6
+                                            class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current">
+                                            Cycling blog</h6>
+
+                                    </div>
+                                    <div class="w-full px-3.5 pt-2 pb-3.5 rounded">
+                                        <button
+                                            class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Read
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- right-card -->
+                            <div
+                                class="w-full rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 max-w-xs transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                <div class="px-2 py-2"><img src="assets/fashion-1.jpg" alt="image"
+                                        class="w-[calc(100%-16px)] h-[10rem] rounded-lg m-2" />
+                                    <div class="w-full h-max rounded px-3.5 py-2.5">
+
+                                        <h6
+                                            class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current">
+                                            Fashion blog</h6>
+
+                                    </div>
+                                    <div class="w-full px-3.5 pt-2 pb-3.5 rounded">
+                                        <button
+                                            class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Read
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- row -->
+                        <div class="flex gap-5 py-5 bg-stone-100">
+                            <!-- left-card -->
+                            <div
+                                class="w-full rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 max-w-xs transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                <div class="px-2 py-2"><img src="assets/car-1.jpg" alt="image"
+                                        class="w-[calc(100%-16px)] h-[10rem] rounded-lg m-2" />
+                                    <div class="w-full h-max rounded px-3.5 py-2.5">
+
+                                        <h6
+                                            class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current">
+                                            UI/UX Review Check</h6>
+
+                                    </div>
+                                    <div class="w-full px-3.5 pt-2 pb-3.5 rounded">
+                                        <button
+                                            class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Read
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- right-card -->
+                            <div
+                                class="w-full rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 max-w-xs transition-ALL duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                <div class="px-2 py-2"><img src="assets/scenery-1.jpg" alt="image"
+                                        class="w-[calc(100%-16px)] h-[10rem] rounded-lg m-2" />
+                                    <div class="w-full h-max rounded px-3.5 py-2.5">
+
+                                        <h6
+                                            class="poppins antialiased font-bold text-base md:text-lg lg:text-xl text-current">
+                                            Travelling blog</h6>
+
+                                    </div>
+                                    <div class="w-full px-3.5 pt-2 pb-3.5 rounded">
+                                        <button
+                                            class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Read
+                                            More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="relative w-full bg-black text-white ">
+        <div class="mx-auto w-full max-w-7xl px-8 py-12">
+            <div class="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
+                <div class="flex flex-col">
+                    <h6 class="poppins antialiased font-bold text-3xl md:text-3xl lg:text-4xl text-current mb-4">
+                        Budgethook
+                    </h6>
+                    <div class="flex gap-1 lg:gap-3 m-0">
+                        <a href="#"
+                            class="inline-grid place-items-center border align-middle select-none font-sans font-medium text-center transition-all duration-300 ease-in disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-sm min-w-[34px] min-h-[34px] rounded-md bg-transparent border-transparent text-white hover:bg-stone-200/10 hover:border-stone-600/10 shadow-none hover:shadow-none"><svg
+                                width="1.5em" height="1.5em" stroke-width="1.5" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" color="currentColor" class="h-4 w-4 lg:h-6 lg:w-6">
+                                <path
+                                    d="M17 2H14C12.6739 2 11.4021 2.52678 10.4645 3.46447C9.52678 4.40215 9 5.67392 9 7V10H6V14H9V22H13V14H16L17 10H13V7C13 6.73478 13.1054 6.48043 13.2929 6.29289C13.4804 6.10536 13.7348 6 14 6H17V2Z"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+                        <a href="#"
+                            class="inline-grid place-items-center border align-middle select-none font-sans font-medium text-center transition-all duration-300 ease-in disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-sm min-w-[34px] min-h-[34px] rounded-md bg-transparent border-transparent text-white hover:bg-stone-200/10 hover:border-stone-600/10 shadow-none hover:shadow-none"><svg
+                                width="1.5em" height="1.5em" stroke-width="1.5" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" color="currentColor" class="h-4 w-4 lg:h-6 lg:w-6">
+                                <path
+                                    d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path
+                                    d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z"
+                                    stroke="currentColor"></path>
+                                <path d="M17.5 6.51L17.51 6.49889" stroke="currentColor" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+                        <a href="#"
+                            class="inline-grid place-items-center border align-middle select-none font-sans font-medium text-center transition-all duration-300 ease-in disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-sm min-w-[34px] min-h-[34px] rounded-md bg-transparent border-transparent text-white hover:bg-stone-200/10 hover:border-stone-600/10 shadow-none hover:shadow-none"><svg
+                                width="1.5em" height="1.5em" viewBox="0 0 24 24" stroke-width="1.5" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" color="currentColor" class="h-4 w-4 lg:h-6 lg:w-6">
+                                <path
+                                    d="M16.8198 20.7684L3.75317 3.96836C3.44664 3.57425 3.72749 3 4.22678 3H6.70655C6.8917 3 7.06649 3.08548 7.18016 3.23164L20.2468 20.0316C20.5534 20.4258 20.2725 21 19.7732 21H17.2935C17.1083 21 16.9335 20.9145 16.8198 20.7684Z"
+                                    stroke="currentColor"></path>
+                                <path d="M20 3L4 21" stroke="currentColor" stroke-linecap="round"></path>
+                            </svg>
+                        </a>
+                        <a href="#"
+                            class="inline-grid place-items-center border align-middle select-none font-sans font-medium text-center transition-all duration-300 ease-in disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-sm min-w-[34px] min-h-[34px] rounded-md bg-transparent border-transparent text-white hover:bg-stone-200/10 hover:border-stone-600/10 shadow-none hover:shadow-none"><svg
+                                width="1.5em" height="1.5em" stroke-width="1.5" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" color="currentColor" class="h-4 w-4 lg:h-6 lg:w-6">
+                                <path
+                                    d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+                        <a href="#"
+                            class="inline-grid place-items-center border align-middle select-none font-sans font-medium text-center transition-all duration-300 ease-in disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-sm min-w-[34px] min-h-[34px] rounded-md bg-transparent border-transparent text-white hover:bg-stone-200/10 hover:border-stone-600/10 shadow-none hover:shadow-none"><svg
+                                width="1.5em" height="1.5em" stroke-width="1.5" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" color="currentColor" class="h-4 w-4 lg:h-6 lg:w-6">
+                                <path
+                                    d="M2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12Z"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M16.6726 20.8435C15.5 14 12.5 8.00003 8.5 2.62964" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M2.06653 10.8406C6.00004 11 15.2829 10.5 19.1415 5" stroke="currentColor"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M21.9677 12.81C15.3438 10.8407 7.50002 14.0001 5.23145 19.3613"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="grid grid-cols-3 justify-between gap-x-6 gap-y-4">
+                    <ul>
+                        <p class="font-sans antialiased text-lg text-current mb-2 font-bold opacity-50">Product
+                        </p>
+                        <li>
+                            <a href="#"
+                                class="font-sans antialiased text-base text-current py-1 hover:text-primary">Overview</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="font-sans antialiased text-base text-current py-1 hover:text-primary">Features</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="font-sans antialiased text-base text-current py-1 hover:text-primary">Solutions</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="font-sans antialiased text-base text-current py-1 hover:text-primary">Tutorials</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <p class="font-sans antialiased text-lg text-current mb-2 font-semibold opacity-50">Company
+                        </p>
+                        <li>
+                            <a href="#"
+                                class="font-sans antialiased text-base text-current py-1 hover:text-primary">About
+                                us</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="font-sans antialiased text-base text-current py-1 hover:text-primary">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="font-sans antialiased text-base text-current py-1 hover:text-primary">Press</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="font-sans antialiased text-base text-current py-1 hover:text-primary">News</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <p class="font-sans antialiased text-lg text-current mb-2 font-semibold opacity-50">Resource
+                        </p>
+                        <li>
+                            <a href="#"
+                                class="font-sans antialiased text-base text-current py-1 hover:text-primary">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="font-sans antialiased text-base text-current py-1 hover:text-primary">Newsletter</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="font-sans antialiased text-base text-current py-1 hover:text-primary">Events</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="font-sans antialiased text-base text-current py-1 hover:text-primary">Help
+                                center</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="mt-10 flex w-full flex-col items-center justify-center gap-4 border-t border-stone-200 py-4 md:flex-row md:justify-between">
+                <small class="font-sans antialiased text-sm text-current text-center">© 2025
+                    <a href="https://material-tailwind.com/">Budgethook</a>. All Rights Reserved.</small>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+  src="https://cdn.jsdelivr.net/gh/creativetimofficial/david-ai@latest/packages/dist/david-ai.min.js"
+  defer
+></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+
+
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+    </script>
+</body>
+
+</html>
