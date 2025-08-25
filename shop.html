@@ -17,29 +17,25 @@
 
 <body>
     <!-- navbar start -->
-    <nav class="shadow-lg overflow-hidden  bg-(--accent-color) text-white shadow-stone-950/20 md:px-16 px-5 flex flex-wrap items-center py-4 md:py-2">
+    <nav
+        class="shadow-lg overflow-hidden  bg-(--accent-color) text-white shadow-stone-950/20 md:px-16 px-5 flex flex-wrap items-center py-4 md:py-2">
 
-    <div class="flex-1 flex justify-between items-center">
-    
-      <a href="#" class="poppins antialiased text-2xl text-current ml-2 mr-5 block py-1 font-bold">Budgethook</a>
-    </div>
-    <label for="menu-toggle" class="cursor-pointer md:hidden block">
-      <svg
-        class="fill-current text-white"
-        xmlns="http://www.w3.org/2000/svg"
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-      >
-        <title>menu</title>
-        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-      </svg>
-    </label>
-    <input class="hidden" type="checkbox" id="menu-toggle" />
-    <div class="py-4 hidden md:flex md:items-center md:w-auto w-full" id="menu">
-      <nav>
-        
-        <ul class="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-1 md:text-lg md:flex  md:pt-0">
+        <div class="flex-1 flex justify-between items-center">
+
+            <a href="index.html" class="poppins antialiased text-2xl text-current ml-2 mr-5 block py-1 font-bold">Budgethook</a>
+        </div>
+        <label for="menu-toggle" class="cursor-pointer md:hidden block">
+            <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                viewBox="0 0 20 20">
+                <title>menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+        </label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+        <div class="py-4 hidden md:flex md:items-center md:w-auto w-full" id="menu">
+            <nav>
+
+                <ul class="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-1 md:text-lg md:flex  md:pt-0">
                     <li class="py-2 md:py-0">
                         <a href="index.html"
                             class="poppins antialiased text-md font-normal px-3 py-2 rounded text-white hover:bg-zinc-200/80 hover:text-black transition-all duration-300">Home</a>
@@ -57,40 +53,41 @@
                     </li>
 
                     <div class="ml-auto mr-auto w-8 lg:w-40">
-                <div class="relative w-full">
-                    <input placeholder="Search here..." type="search"
-                        class="w-full aria-disabled:cursor-not-allowed outline-none focus:outline-none text-stone-800 dark:text-white placeholder:hidden lg:placeholder:text-stone-600/60 ring-transparent border border-stone-200 transition-all ease-in disabled:opacity-50 disabled:pointer-events-none select-none text-sm py-1.5 p-0 lg:pl-8 lg:pr-2 ring shadow-sm bg-white rounded-md duration-100 hover:border-stone-300 hover:ring-none focus:border-stone-400 focus:ring-none peer" />
-                    <span
-                        class="pointer-events-none absolute left-2 top-1/2 -translate-y-1/2 text-stone-600/70  dark:peer-hover:text-black dark:peer-focus:text-white transition-all duration-300 ease-in overflow-hidden w-4 h-4"><svg
-                            width="1.5em" height="1.5em" viewBox="0 0 24 24" stroke-width="1.5" fill="none"
-                            xmlns="http://www.w3.org/2000/svg" color="currentColor" class="h-full w-full">
-                            <path d="M17 17L21 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                            </path>
-                            <path
-                                d="M3 11C3 15.4183 6.58172 19 11 19C13.213 19 15.2161 18.1015 16.6644 16.6493C18.1077 15.2022 19 13.2053 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11Z"
-                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                    </span>
-                </div>
-            </div>
+                        <div class="relative w-full">
+                            <input placeholder="Search here..." type="search"
+                                class="w-full aria-disabled:cursor-not-allowed outline-none focus:outline-none text-stone-800 dark:text-black placeholder:hidden lg:placeholder:text-stone-600/60 ring-transparent border border-stone-200 transition-all ease-in disabled:opacity-50 disabled:pointer-events-none select-none text-sm py-1.5 p-0 lg:pl-8 lg:pr-2 ring shadow-sm bg-white rounded-md duration-100 hover:border-stone-300 hover:ring-none focus:border-stone-400 focus:ring-none peer" />
+                            <span
+                                class="pointer-events-none absolute left-2 top-1/2 -translate-y-1/2 text-stone-600/70  dark:peer-hover:text-black dark:peer-focus:text-black transition-all duration-300 ease-in overflow-hidden w-4 h-4"><svg
+                                    width="1.5em" height="1.5em" viewBox="0 0 24 24" stroke-width="1.5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" color="currentColor" class="h-full w-full">
+                                    <path d="M17 17L21 21" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                    </path>
+                                    <path
+                                        d="M3 11C3 15.4183 6.58172 19 11 19C13.213 19 15.2161 18.1015 16.6644 16.6493C18.1077 15.2022 19 13.2053 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11Z"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
 
                 </ul>
-      </nav>
-    </div>
-  </nav>
+            </nav>
+        </div>
+    </nav>
     <!-- navbar end -->
 
-    
 
 
 
-    <!-- category section start -->
-    <section class="w-full container mt-20 mb-20 px-5 py-8 lg:px-10 mx-auto max-w-[900px] bg-stone-100">
+
+
+    <section class="w-full container mt-20 mb-20 px-5 py-8 lg:px-10 mx-auto  bg-stone-100">
 
         <!-- Author  -->
 
 
-        <!-- latest post section start -->
+        <!-- Shop section start -->
         <section class="w-full container  px-5 bg-stone-100">
 
 
@@ -98,141 +95,218 @@
             <div class="py-4">
                 <h4 class="text-5xl text-center font-bold poppins text-black mb-2">Shop
                 </h4>
-                <h4 class="text-md text-center font-normal poppins text-black mb-2">8 Offers Available
-                </h4>
+                
             </div>
 
-            <!-- latest post heading -->
+            <!-- coupons heading -->
             <div class="flex justify-between mt-2 mb-10 border-b-1 py-2 border-stone-500">
                 <h4 class="text-4xl font-bold poppins text-black  ">Coupons</h4>
 
             </div>
+            <div class="flex flex-col lg:flex-row lg:gap-7">
+                <div class="w-full lg:w-4/12">
+                    <figure class="relative h-[17rem] w-full rounded-xl overflow-hidden group cursor-pointer">
+                        
 
-            <div class="space-y-4 px-2 bg-stone-100">
-                <!-- row -->
+                            <figcaption
+                                class="rounded-lg shadow-sm overflow-hidden bg-white/85 shadow-stone-950/5 bg-opacity-75 ">
+                                <div class="w-full h-max rounded flex px-4 py-17 justify-center">
+                                    <div class="flex flex-col items-center">
 
-                <div class=" bg-stone-100">
-                    <a href="">
-                        <div
-                            class="rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 flex h-[8rem] w-full max-w-[800px] flex-row  transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
-                            <div class="flex p-6 items-center justify-between w-full">
-                                <div class="w-full h-max rounded ">
-                                    <small
-                                        class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">20%
-                                        Off</small>
-                                    <h5
-                                        class="poppins antialiased font-bold text-md md:text-lg lg:text-lg text-current mt-2 ">
-                                        15% Off Storewide
-                                    </h5>
-                                    <small class="poppins antialiased text-sm mb-8 text-stone-600">Free shipping on
-                                        orders above $54 </small>
+                                        <h6
+                                            class="text-center poppins antialiased font-bold text-4xl text-current py-5">
+
+                                            Budgethook </h6>
+
+                                        <h4
+                                            class="text-center poppins antialiased font-normal text-md text-current ">
+
+                                            11 Offers available </h4>
+
+                    
+                                        <div class="flex items-center">
+                                            <svg class="w-4 h-4 text-yellow-300 me-1" aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                                viewBox="0 0 22 20">
+                                                <path
+                                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 text-yellow-300 me-1" aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                                viewBox="0 0 22 20">
+                                                <path
+                                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 text-yellow-300 me-1" aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                                viewBox="0 0 22 20">
+                                                <path
+                                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 text-yellow-300 me-1" aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                                viewBox="0 0 22 20">
+                                                <path
+                                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 text-gray-300 me-1 dark:text-gray-500"
+                                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                                fill="currentColor" viewBox="0 0 22 20">
+                                                <path
+                                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                            </svg>
+                                            <p class="ms-1 text-sm font-medium text-gray-500 dark:text-gray-400">4.95
+                                            </p>
+                                            <p class="ms-1 text-sm font-medium text-gray-500 dark:text-gray-400">out of
+                                            </p>
+                                            <p class="ms-1 text-sm font-medium text-gray-500 dark:text-gray-400">5</p>
+                                        </div>
+
+
+
+                                    </div>
+
 
                                 </div>
-                                <div>
-                                    <a href="blogpost.html">
-                                        <button
-                                            class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Get
-                                            Code</button>
-                                    </a>
+
+                            </figcaption>
+                        
+                    </figure>
+                </div>
+                <div class="w-full lg:w-8/12">
+                    <div class="space-y-4 bg-stone-100">
+                        <!-- row -->
+
+                        <div class=" bg-stone-100">
+                            <a href="">
+                                <div
+                                    class="rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 flex h-[8rem] w-full max-w-[800px] flex-row  transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                    <div class="flex p-6 items-center justify-between w-full">
+                                        <div class="w-full h-max rounded ">
+                                            <small
+                                                class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">20%
+                                                Off</small>
+                                            <h5
+                                                class="poppins antialiased font-bold text-md md:text-lg lg:text-lg text-current mt-2 ">
+                                                15% Off Storewide
+                                            </h5>
+                                            <small class="poppins antialiased text-sm mb-8 text-stone-600">Free shipping
+                                                on
+                                                orders above $54 </small>
+
+                                        </div>
+                                        <div>
+                                            <a href="blogpost.html">
+                                                <button
+                                                    class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Get
+                                                    Code</button>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+
+                            </a>
+                        </div>
+                        <!-- row -->
+
+                        <div>
+                            <a href="">
+                                <div
+                                    class="rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 flex h-[8rem] w-full max-w-[800px] flex-row  transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                    <div class="flex p-6 items-center justify-between w-full">
+                                        <div class="w-full h-max rounded ">
+                                            <small
+                                                class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">20%
+                                                Off</small>
+                                            <h5
+                                                class="poppins antialiased font-bold text-md md:text-lg lg:text-lg text-current mt-2 ">
+                                                15% Off Storewide
+                                            </h5>
+                                            <small class="poppins antialiased text-sm mb-8 text-stone-600">Free shipping
+                                                on
+                                                orders above $54 </small>
+
+                                        </div>
+                                        <div>
+                                            <a href="blogpost.html">
+                                                <button
+                                                    class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Get
+                                                    Code</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!-- row -->
+
+                        <div>
+                            <a href="">
+                                <div
+                                    class="rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 flex h-[8rem] w-full max-w-[800px] flex-row  transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                    <div class="flex p-6 items-center justify-between w-full">
+                                        <div class="w-full h-max rounded ">
+                                            <small
+                                                class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">20%
+                                                Off</small>
+                                            <h5
+                                                class="poppins antialiased font-bold text-md md:text-lg lg:text-lg text-current mt-2 ">
+                                                15% Off Storewide
+                                            </h5>
+                                            <small class="poppins antialiased text-sm mb-8 text-stone-600">Free shipping
+                                                on
+                                                orders above $54 </small>
+
+                                        </div>
+                                        <div>
+                                            <a href="blogpost.html">
+                                                <button
+                                                    class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Get
+                                                    Code</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </a>
                         </div>
 
-                    </a>
-                </div>
-                <!-- row -->
+                        <!-- row -->
+                        <div>
+                            <a href="">
+                                <div
+                                    class="rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 flex h-[8rem] w-full max-w-[800px] flex-row  transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
+                                    <div class="flex p-6 items-center justify-between w-full">
+                                        <div class="w-full h-max rounded ">
+                                            <small
+                                                class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">20%
+                                                Off</small>
+                                            <h5
+                                                class="poppins antialiased font-bold text-md md:text-lg lg:text-lg text-current mt-2 ">
+                                                15% Off Storewide
+                                            </h5>
+                                            <small class="poppins antialiased text-sm mb-8 text-stone-600">Free shipping
+                                                on
+                                                orders above $54 </small>
 
-                <div>
-                    <a href="">
-                        <div
-                            class="rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 flex h-[8rem] w-full max-w-[800px] flex-row  transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
-                            <div class="flex p-6 items-center justify-between w-full">
-                                <div class="w-full h-max rounded ">
-                                    <small
-                                        class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">20%
-                                        Off</small>
-                                    <h5
-                                        class="poppins antialiased font-bold text-md md:text-lg lg:text-lg text-current mt-2 ">
-                                        15% Off Storewide
-                                    </h5>
-                                    <small class="poppins antialiased text-sm mb-8 text-stone-600">Free shipping on
-                                        orders above $54 </small>
+                                        </div>
+                                        <div>
+                                            <a href="blogpost.html">
+                                                <button
+                                                    class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Get
+                                                    Code</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                </div>
-                                <div>
-                                    <a href="blogpost.html">
-                                        <button
-                                            class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Get
-                                            Code</button>
-                                    </a>
-                                </div>
-                            </div>
+                            </a>
                         </div>
-
-                    </a>
-                </div>
-                <!-- row -->
-
-                <div>
-                    <a href="">
-                        <div
-                            class="rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 flex h-[8rem] w-full max-w-[800px] flex-row  transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
-                            <div class="flex p-6 items-center justify-between w-full">
-                                <div class="w-full h-max rounded ">
-                                    <small
-                                        class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">20%
-                                        Off</small>
-                                    <h5
-                                        class="poppins antialiased font-bold text-md md:text-lg lg:text-lg text-current mt-2 ">
-                                        15% Off Storewide
-                                    </h5>
-                                    <small class="poppins antialiased text-sm mb-8 text-stone-600">Free shipping on
-                                        orders above $54 </small>
-
-                                </div>
-                                <div>
-                                    <a href="blogpost.html">
-                                        <button
-                                            class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Get
-                                            Code</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </a>
+                    </div>
                 </div>
 
-                <!-- row -->
-                <div>
-                    <a href="">
-                        <div
-                            class="rounded-lg border shadow-sm overflow-hidden bg-white border-stone-200 shadow-stone-950/5 flex h-[8rem] w-full max-w-[800px] flex-row  transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-300 hover:-translate-y-0.75">
-                            <div class="flex p-6 items-center justify-between w-full">
-                                <div class="w-full h-max rounded ">
-                                    <small
-                                        class="poppins antialiased text-sm mb-8 text-white bg-(--accent-color) px-2 py-1 rounded-md">20%
-                                        Off</small>
-                                    <h5
-                                        class="poppins antialiased font-bold text-md md:text-lg lg:text-lg text-current mt-2 ">
-                                        15% Off Storewide
-                                    </h5>
-                                    <small class="poppins antialiased text-sm mb-8 text-stone-600">Free shipping on
-                                        orders above $54 </small>
 
-                                </div>
-                                <div>
-                                    <a href="blogpost.html">
-                                        <button
-                                            class="poppins text-sm uppercase rounded-md bg-(--accent-color) px-3 py-2 text-white hover:text-black hover:bg-zinc-200 transition-all duration-300 hover:scale-110">Get
-                                            Code</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </a>
-                </div>
             </div>
 
 
@@ -357,7 +431,7 @@
 
 
         </section>
-        <!-- latest post section end -->
+        <!-- shop section end -->
 
 
 
@@ -369,10 +443,6 @@
         <!-- by author -->
 
     </section>
-    <!-- category section end -->
-
-
-
 
 
 

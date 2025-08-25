@@ -17,29 +17,25 @@
 
 <body>
     <!-- navbar start -->
-    <nav class="shadow-lg overflow-hidden  bg-(--accent-color) text-white shadow-stone-950/20 md:px-16 px-5 flex flex-wrap items-center py-4 md:py-2">
+    <nav
+        class="shadow-lg overflow-hidden  bg-(--accent-color) text-white shadow-stone-950/20 md:px-16 px-5 flex flex-wrap items-center py-4 md:py-2">
 
-    <div class="flex-1 flex justify-between items-center">
-    
-      <a href="#" class="poppins antialiased text-2xl text-current ml-2 mr-5 block py-1 font-bold">Budgethook</a>
-    </div>
-    <label for="menu-toggle" class="cursor-pointer md:hidden block">
-      <svg
-        class="fill-current text-white"
-        xmlns="http://www.w3.org/2000/svg"
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-      >
-        <title>menu</title>
-        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-      </svg>
-    </label>
-    <input class="hidden" type="checkbox" id="menu-toggle" />
-    <div class="py-4 hidden md:flex md:items-center md:w-auto w-full" id="menu">
-      <nav>
-        
-        <ul class="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-1 md:text-lg md:flex  md:pt-0">
+        <div class="flex-1 flex justify-between items-center">
+
+            <a href="index.html" class="poppins antialiased text-2xl text-current ml-2 mr-5 block py-1 font-bold">Budgethook</a>
+        </div>
+        <label for="menu-toggle" class="cursor-pointer md:hidden block">
+            <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                viewBox="0 0 20 20">
+                <title>menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+        </label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+        <div class="py-4 hidden md:flex md:items-center md:w-auto w-full" id="menu">
+            <nav>
+
+                <ul class="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-1 md:text-lg md:flex  md:pt-0">
                     <li class="py-2 md:py-0">
                         <a href="index.html"
                             class="poppins antialiased text-md font-normal px-3 py-2 rounded text-white hover:bg-zinc-200/80 hover:text-black transition-all duration-300">Home</a>
@@ -57,27 +53,28 @@
                     </li>
 
                     <div class="ml-auto mr-auto w-8 lg:w-40">
-                <div class="relative w-full">
-                    <input placeholder="Search here..." type="search"
-                        class="w-full aria-disabled:cursor-not-allowed outline-none focus:outline-none text-stone-800 dark:text-white placeholder:hidden lg:placeholder:text-stone-600/60 ring-transparent border border-stone-200 transition-all ease-in disabled:opacity-50 disabled:pointer-events-none select-none text-sm py-1.5 p-0 lg:pl-8 lg:pr-2 ring shadow-sm bg-white rounded-md duration-100 hover:border-stone-300 hover:ring-none focus:border-stone-400 focus:ring-none peer" />
-                    <span
-                        class="pointer-events-none absolute left-2 top-1/2 -translate-y-1/2 text-stone-600/70  dark:peer-hover:text-black dark:peer-focus:text-white transition-all duration-300 ease-in overflow-hidden w-4 h-4"><svg
-                            width="1.5em" height="1.5em" viewBox="0 0 24 24" stroke-width="1.5" fill="none"
-                            xmlns="http://www.w3.org/2000/svg" color="currentColor" class="h-full w-full">
-                            <path d="M17 17L21 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                            </path>
-                            <path
-                                d="M3 11C3 15.4183 6.58172 19 11 19C13.213 19 15.2161 18.1015 16.6644 16.6493C18.1077 15.2022 19 13.2053 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11Z"
-                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                    </span>
-                </div>
-            </div>
+                        <div class="relative w-full">
+                            <input placeholder="Search here..." type="search"
+                                class="w-full aria-disabled:cursor-not-allowed outline-none focus:outline-none text-stone-800 dark:text-black placeholder:hidden lg:placeholder:text-stone-600/60 ring-transparent border border-stone-200 transition-all ease-in disabled:opacity-50 disabled:pointer-events-none select-none text-sm py-1.5 p-0 lg:pl-8 lg:pr-2 ring shadow-sm bg-white rounded-md duration-100 hover:border-stone-300 hover:ring-none focus:border-stone-400 focus:ring-none peer" />
+                            <span
+                                class="pointer-events-none absolute left-2 top-1/2 -translate-y-1/2 text-stone-600/70  dark:peer-hover:text-black dark:peer-focus:text-black transition-all duration-300 ease-in overflow-hidden w-4 h-4"><svg
+                                    width="1.5em" height="1.5em" viewBox="0 0 24 24" stroke-width="1.5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" color="currentColor" class="h-full w-full">
+                                    <path d="M17 17L21 21" stroke="currentColor" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                    </path>
+                                    <path
+                                        d="M3 11C3 15.4183 6.58172 19 11 19C13.213 19 15.2161 18.1015 16.6644 16.6493C18.1077 15.2022 19 13.2053 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11Z"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
 
                 </ul>
-      </nav>
-    </div>
-  </nav>
+            </nav>
+        </div>
+    </nav>
     <!-- navbar end -->
 
 
@@ -105,6 +102,77 @@
             <img src="assets/cycle-3.jpg" alt="" class="object-cover w-full">
         </div>
 
+        <!-- table of contents -->
+        <div class="w-full px-4 py-3 text-center text-gray-800 break-words  rounded mx-auto mb-10">
+            <div class="poppins mx-auto text-xl font-semibold"><strong>Table of contents</strong></div>
+            <ul class="mt-2 list-none px-4 py-4 rounded-lg  bg-stone-300 flex flex-col sm:flex-row">
+                <div class="w-full sm:w-6/12">
+                    <li class="flex items-center lock hover:bg-gray-200 px-2 py-1 rounded">
+                        <small
+                            class="poppins antialiased text-sm text-white bg-(--accent-color) w-7 py-1 rounded-md bold">01
+                        </small>
+                        <a class="block hover:bg-gray-200 px-2 py-1 rounded" href="#introduction">Introduction</a>
+                    </li>
+                    <li class="flex items-center lock hover:bg-gray-200 px-2 py-1 rounded">
+                        <small
+                            class="poppins antialiased text-sm text-white bg-(--accent-color) w-7 py-1 rounded-md bold">02
+                        </small>
+                        <a class="block hover:bg-gray-200 px-2 py-1 rounded" href="#introduction">Mid value</a>
+                    </li>
+                    <li class="flex items-center lock hover:bg-gray-200 px-2 py-1 rounded">
+                        <small
+                            class="poppins antialiased text-sm text-white bg-(--accent-color) w-7 py-1 rounded-md bold">03
+                        </small>
+                        <a class="block hover:bg-gray-200 px-2 py-1 rounded" href="#introduction">Last thing</a>
+                    </li>
+                    <li class="flex items-center lock hover:bg-gray-200 px-2 py-1 rounded">
+                        <small
+                            class="poppins antialiased text-sm text-white bg-(--accent-color) w-7 py-1 rounded-md bold">04
+                        </small>
+                        <a class="block hover:bg-gray-200 px-2 py-1 rounded" href="#introduction">This is good</a>
+                    </li>
+                    <li class="flex items-center lock hover:bg-gray-200 px-2 py-1 rounded">
+                        <small
+                            class="poppins antialiased text-sm text-white bg-(--accent-color) w-7 py-1 rounded-md bold">05
+                        </small>
+                        <a class="block hover:bg-gray-200 px-2 py-1 rounded" href="#introduction">Introduction</a>
+                    </li>
+                </div>
+                <div class="w-full sm:w-6/12">
+                    <li class="flex items-center lock hover:bg-gray-200 px-2 py-1 rounded">
+                        <small
+                            class="poppins antialiased text-sm text-white bg-(--accent-color) w-7 py-1 rounded-md bold">06
+                        </small>
+                        <a class="block hover:bg-gray-200 px-2 py-1 rounded" href="#introduction">Introduction</a>
+                    </li>
+                    <li class="flex items-center lock hover:bg-gray-200 px-2 py-1 rounded">
+                        <small
+                            class="poppins antialiased text-sm text-white bg-(--accent-color) w-7 py-1 rounded-md bold">07
+                        </small>
+                        <a class="block hover:bg-gray-200 px-2 py-1 rounded" href="#introduction">Introduction</a>
+                    </li>
+                    <li class="flex items-center lock hover:bg-gray-200 px-2 py-1 rounded">
+                        <small
+                            class="poppins antialiased text-sm text-white bg-(--accent-color) w-7 py-1 rounded-md bold">08
+                        </small>
+                        <a class="block hover:bg-gray-200 px-2 py-1 rounded" href="#introduction">Introduction</a>
+                    </li>
+                    <li class="flex items-center lock hover:bg-gray-200 px-2 py-1 rounded">
+                        <small
+                            class="poppins antialiased text-sm text-white bg-(--accent-color) w-7 py-1 rounded-md bold">09
+                        </small>
+                        <a class="block hover:bg-gray-200 px-2 py-1 rounded" href="#introduction">Introduction</a>
+                    </li>
+                    <li class="flex items-center lock hover:bg-gray-200 px-2 py-1 rounded">
+                        <small
+                            class="poppins antialiased text-sm text-white bg-(--accent-color) w-7 py-1 rounded-md bold">10
+                        </small>
+                        <a class="block hover:bg-gray-200 px-2 py-1 rounded" href="#introduction">Introduction</a>
+                    </li>
+                </div>
+
+            </ul>
+        </div>
 
         <!-- post text 1 -->
         <div class="">
