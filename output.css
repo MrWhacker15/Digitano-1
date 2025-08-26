@@ -440,6 +440,9 @@
   .h-\[13rem\] {
     height: 13rem;
   }
+  .h-\[15rem\] {
+    height: 15rem;
+  }
   .h-\[17rem\] {
     height: 17rem;
   }
@@ -508,6 +511,12 @@
   }
   .w-40 {
     width: calc(var(--spacing) * 40);
+  }
+  .w-\[10rem\] {
+    width: 10rem;
+  }
+  .w-\[13rem\] {
+    width: 13rem;
   }
   .w-\[calc\(100\%-2rem\)\] {
     width: calc(100% - 2rem);
@@ -1448,14 +1457,44 @@
       cursor: not-allowed;
     }
   }
+  .sm\:h-\[35\.25rem\] {
+    @media (width >= 40rem) {
+      height: 35.25rem;
+    }
+  }
   .sm\:w-6\/12 {
     @media (width >= 40rem) {
       width: calc(6/12 * 100%);
     }
   }
+  .sm\:w-\[calc\(100\%-16px\)\] {
+    @media (width >= 40rem) {
+      width: calc(100% - 16px);
+    }
+  }
+  .sm\:max-w-\[13rem\] {
+    @media (width >= 40rem) {
+      max-width: 13rem;
+    }
+  }
   .sm\:flex-row {
     @media (width >= 40rem) {
       flex-direction: row;
+    }
+  }
+  .sm\:flex-wrap {
+    @media (width >= 40rem) {
+      flex-wrap: wrap;
+    }
+  }
+  .sm\:justify-center {
+    @media (width >= 40rem) {
+      justify-content: center;
+    }
+  }
+  .sm\:gap-5 {
+    @media (width >= 40rem) {
+      gap: calc(var(--spacing) * 5);
     }
   }
   .md\:flex {
